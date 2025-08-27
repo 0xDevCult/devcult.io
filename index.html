@@ -80,7 +80,7 @@
         <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     </head>
     <body
-        class="bg-black text-white font-coconat selection:bg-brand-500/30 selection:text-white"
+        class="bg-black text-white selection:bg-brand-500/30 selection:text-white"
     >
         <!-- Accent Noise / Glow Background -->
         <div
@@ -104,9 +104,10 @@
                         <img
                             src="assets/favicon.svg"
                             alt="DevCult Logo"
-                            class="h-9 w-9 drop-shadow-glow transition-transform duration-300 group-hover:rotate-6"
+                            class="h-16 w-16 drop-shadow-glow transition-transform duration-300 group-hover:rotate-6"
                         />
-                        <span class="text-xl font-semibold tracking-wide"
+                        <span
+                            class="text-xl font-semibold tracking-wide font-coconat"
                             >DevCult</span
                         >
                     </a>
@@ -140,63 +141,52 @@
             <section
                 class="mx-auto max-w-7xl px-6 pt-10 pb-20 md:pt-20 md:pb-28"
             >
-                <div class="grid gap-10 md:grid-cols-12 md:items-center">
-                    <div class="md:col-span-7">
-                        <h1
-                            class="text-4xl md:text-6xl font-[750] leading-[1.05]"
-                        >
-                            If you want to compete in
-                            <span
-                                class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-brand-500 to-brand-300"
-                                >opensource</span
-                            >, make it the
-                            <span
-                                class="underline decoration-brand-500 decoration-4 underline-offset-4"
-                                >heaven for devs</span
-                            >.
-                        </h1>
-                        <p
-                            class="mt-6 max-w-2xl text-base md:text-lg opacity-90"
-                        >
-                            DevCult helps you craft delightful Developer
-                            Experience (DevEx) and DevRel systems — so
-                            contributors ship faster, docs sing, and your
-                            ecosystem grows.
-                        </p>
-                        <div class="mt-8 flex flex-wrap items-center gap-4">
-                            <a
-                                href="#contact"
-                                class="inline-flex items-center justify-center rounded-lg bg-brand-500 px-5 py-3 text-sm font-semibold text-black shadow-glow transition hover:translate-y-[-1px] active:translate-y-[0]"
-                                >Get in touch</a
+                <div class="grid gap-10 md:grid-cols-12 md:items-start">
+                    <div class="md:col-span-5 order-2 md:order-1">
+                        <div class="space-y-6">
+                            <h1
+                                class="text-4xl md:text-5xl font-[750] leading-[1.05] font-coconat"
                             >
-                            <a
-                                href="#services"
-                                class="inline-flex items-center justify-center rounded-lg border border-white/15 px-5 py-3 text-sm font-semibold hover:bg-white/5"
-                                >Explore services</a
-                            >
-                        </div>
-                        <div class="mt-6 text-xs opacity-70">
-                            Let’s make your DevEx shine.
+                                If you want to compete in
+                                <span
+                                    class="text-transparent bg-clip-text bg-gradient-to-r from-brand-400 via-brand-500 to-brand-300"
+                                    >opensource</span
+                                >, make it the
+                                <span
+                                    class="underline decoration-brand-500 decoration-4 underline-offset-4"
+                                    >heaven for devs</span
+                                >.
+                            </h1>
+                            <p class="text-base md:text-lg opacity-90 max-w-lg">
+                                DevCult helps you craft delightful Developer
+                                Experience (DevEx) and DevRel systems — so
+                                contributors ship faster, docs sing, and your
+                                ecosystem grows.
+                            </p>
+                            <div class="flex flex-wrap items-center gap-4">
+                                <a
+                                    href="#contact"
+                                    class="inline-flex items-center justify-center rounded-lg bg-brand-500 px-5 py-3 text-sm font-semibold text-black shadow-glow transition hover:translate-y-[-1px] active:translate-y-[0]"
+                                    >Get in touch</a
+                                >
+                                <a
+                                    href="#services"
+                                    class="inline-flex items-center justify-center rounded-lg border border-white/15 px-5 py-3 text-sm font-semibold hover:bg-white/5"
+                                    >Explore services</a
+                                >
+                            </div>
+                            <div class="text-xs opacity-70">
+                                Let's make your DevEx shine.
+                            </div>
                         </div>
                     </div>
-                    <div class="md:col-span-5">
-                        <!-- Visual placeholder card for hero image / showcase -->
-                        <div
-                            class="relative rounded-2xl border border-white/10 bg-gradient-to-b from-white/5 to-transparent p-4 md:p-6"
-                        >
-                            <div
-                                class="aspect-[4/3] w-full rounded-xl border border-dashed border-white/20 grid place-items-center"
-                            >
-                                <img
-                                    src="assets/banner.png"
-                                    alt="DevCult Banner"
-                                    class="w-full h-full object-cover rounded-xl"
-                                />
-                                </div>
-                            </div>
-                            <div
-                                class="pointer-events-none absolute inset-0 rounded-2xl shadow-glow"
-                            ></div>
+                    <div class="md:col-span-7 order-1 md:order-2">
+                        <div class="relative">
+                            <img
+                                src="assets/banner.png"
+                                alt="DevCult Banner"
+                                class="w-full h-auto object-cover rounded-xl shadow-2xl"
+                            />
                         </div>
                     </div>
                 </div>
@@ -244,7 +234,7 @@
                 class="mx-auto max-w-7xl px-6 py-12 md:py-20"
             >
                 <div class="mb-10 flex items-end justify-between gap-6">
-                    <h2 class="text-2xl md:text-3xl font-semibold">
+                    <h2 class="text-2xl md:text-3xl font-semibold font-coconat">
                         What we do
                     </h2>
                     <a
@@ -263,7 +253,7 @@
                         >
                             ⚙️
                         </div>
-                        <h3 class="text-lg font-semibold">
+                        <h3 class="text-lg font-semibold font-coconat">
                             DevEx & DevRel Audits
                         </h3>
                         <p class="mt-2 text-sm opacity-80">
@@ -284,7 +274,9 @@
                         >
                             📚
                         </div>
-                        <h3 class="text-lg font-semibold">Docs & Education</h3>
+                        <h3 class="text-lg font-semibold font-coconat">
+                            Docs & Education
+                        </h3>
                         <p class="mt-2 text-sm opacity-80">
                             Diátaxis-aligned docs, tutorial series, and workshop
                             kits that scale product understanding.
@@ -302,7 +294,9 @@
                         >
                             🫶
                         </div>
-                        <h3 class="text-lg font-semibold">DevRel Systems</h3>
+                        <h3 class="text-lg font-semibold font-coconat">
+                            DevRel Systems
+                        </h3>
                         <p class="mt-2 text-sm opacity-80">
                             Programs, metrics, and content pipelines that
                             convert interest into active contributors.
@@ -317,7 +311,7 @@
             <!-- Work / Case studies (placeholders) -->
             <section id="work" class="mx-auto max-w-7xl px-6 py-12 md:py-20">
                 <div class="mb-10 flex items-end justify-between gap-6">
-                    <h2 class="text-2xl md:text-3xl font-semibold">
+                    <h2 class="text-2xl md:text-3xl font-semibold font-coconat">
                         Selected Work
                     </h2>
                     <a
@@ -338,7 +332,9 @@
                             Case Study Placeholder
                         </div>
                         <div class="p-3">
-                            <h3 class="font-medium">Project Alpha</h3>
+                            <h3 class="font-medium font-coconat">
+                                Project Alpha
+                            </h3>
                             <p class="mt-1 text-sm opacity-80">
                                 Short description of the impact and KPIs.
                             </p>
@@ -353,7 +349,9 @@
                             Case Study Placeholder
                         </div>
                         <div class="p-3">
-                            <h3 class="font-medium">Project Beta</h3>
+                            <h3 class="font-medium font-coconat">
+                                Project Beta
+                            </h3>
                             <p class="mt-1 text-sm opacity-80">
                                 Short description of the impact and KPIs.
                             </p>
@@ -368,7 +366,9 @@
                             Case Study Placeholder
                         </div>
                         <div class="p-3">
-                            <h3 class="font-medium">Project Gamma</h3>
+                            <h3 class="font-medium font-coconat">
+                                Project Gamma
+                            </h3>
                             <p class="mt-1 text-sm opacity-80">
                                 Short description of the impact and KPIs.
                             </p>
@@ -381,7 +381,9 @@
             <section id="about" class="mx-auto max-w-7xl px-6 py-12 md:py-20">
                 <div class="grid gap-10 md:grid-cols-12 md:items-center">
                     <div class="md:col-span-6">
-                        <h2 class="text-2xl md:text-3xl font-semibold">
+                        <h2
+                            class="text-2xl md:text-3xl font-semibold font-coconat"
+                        >
                             Opinionated about great DevEx
                         </h2>
                         <p class="mt-3 text-sm opacity-80">
@@ -424,7 +426,9 @@
                 >
                     <div class="grid gap-8 md:grid-cols-3 md:items-center">
                         <div class="md:col-span-2">
-                            <h2 class="text-2xl md:text-3xl font-semibold">
+                            <h2
+                                class="text-2xl md:text-3xl font-semibold font-coconat"
+                            >
                                 Let’s make your DevEx shine.
                             </h2>
                             <p class="mt-3 text-sm opacity-85">
