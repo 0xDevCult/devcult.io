@@ -1,0 +1,23 @@
+{
+  "name": "devcult-io",
+  "version": "1.0.0",
+  "description": "DevCult website - Developer Experience and DevRel systems",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./assets/styles.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/styles.css --minify",
+    "dev": "tailwindcss -i ./src/input.css -o ./assets/styles.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10"
+  },
+  "keywords": [
+    "developer-experience",
+    "devrel",
+    "opensource",
+    "tailwindcss"
+  ],
+  "author": "DevCult",
+  "license": "MIT"
+}
