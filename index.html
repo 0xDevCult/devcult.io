@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,7 +24,7 @@
         <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
     </head>
     <body
-        class="bg-black text-white selection:bg-brand-500/30 selection:text-white"
+        class="bg-black text-white selection:bg-brand-500/30 selection:text-white scroll-smooth"
     >
         <!-- Accent Noise / Glow Background -->
         <div
@@ -69,7 +69,7 @@
         <!-- Hero -->
         <main id="top" class="relative z-10">
             <section
-                class="mx-auto max-w-7xl px-6 pt-10 pb-20 md:pt-20 md:pb-28"
+                class="min-h-screen flex items-center mx-auto max-w-7xl px-6"
             >
                 <div class="flex flex-col gap-10">
                     <div>
@@ -102,13 +102,15 @@
                             Experience and DevRel systems — so contributors ship
                             faster, docs sing, and your ecosystem grows.
                         </p>
-                        <div class="text-xs opacity-70"></div>
                     </div>
                 </div>
             </section>
 
             <!-- CTA / Contact -->
-            <section id="contact" class="mx-auto max-w-7xl px-6 py-12 md:py-20">
+            <section
+                id="contact"
+                class="min-h-screen flex items-center mx-auto max-w-7xl px-6"
+            >
                 <div
                     class="rounded-3xl border border-white/10 bg-gray-800 p-8 md:p-12"
                 >
@@ -199,16 +201,11 @@
                     class="flex flex-col md:flex-row md:items-center md:justify-between gap-6"
                 >
                     <div class="flex items-center gap-3">
-                        <svg
-                            class="h-6 w-6 text-brand-500"
-                            viewBox="0 0 24 24"
-                            fill="currentColor"
-                            aria-hidden="true"
-                        >
-                            <path
-                                d="M12 2l3.5 6.5L22 9l-5 4.9L18.5 21 12 17.8 5.5 21 7 13.9 2 9l6.5-.5L12 2z"
-                            />
-                        </svg>
+                        <img
+                            src="assets/favicon.svg"
+                            alt="DevCult"
+                            class="h-9 w-9"
+                        />
                         <span class="text-sm"
                             >© <span id="year"></span> DevCult. All rights
                             reserved.</span
