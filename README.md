@@ -51,7 +51,7 @@ This project is set up to automatically deploy to GitHub Pages using GitHub Acti
 
 #### Automatic Deployment (Recommended)
 
-1. Push your changes to the `main` or `master` branch
+1. Push your changes to the `main` branch
 2. GitHub Actions will automatically:
    - Install dependencies
    - Build the CSS
